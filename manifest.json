@@ -1,7 +1,8 @@
 {
-  "name": "FB Pic Downloader",
+  "name": "FB Pix Downloader",
   "description": "Gets all ya tagged pix from FB",
   "version": "1.0",
+  "icons": { "16": "icon-16.png", "48": "icon-48.png", "128": "icon-128.png" },
   "background": {
     "scripts": ["fecha.min.js", "piexif.js", "background.js"]
   },
