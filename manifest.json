@@ -1,0 +1,19 @@
+{
+  "name": "FB Pic Downloader",
+  "description": "Gets all ya tagged pix from FB",
+  "version": "1.0",
+  "background": {
+    "scripts": ["fecha.min.js", "piexif.js", "background.js"]
+  },
+  "browser_action": {
+    "default_title": "FB Pix Downloader"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://www.facebook.com/*"]
+    }
+  ],
+  "permissions": ["downloads", "cookies", "<all_urls>"],
+  "manifest_version": 2
+}
